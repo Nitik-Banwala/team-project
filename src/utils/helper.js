@@ -16,7 +16,7 @@ export const NAV_LIST = [
     Path: PROGRAMS,
   },
   {
-    title: "Why Pupilo",
+    title: "Why Pupilo?",
     path: WHY_PUPILO,
   },
   {
