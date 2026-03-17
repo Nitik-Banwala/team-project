@@ -1,5 +1,8 @@
 export const NAV_LIST = [
   {
-    title: "Home",
+    title: "Home", 
+  },
+  {
+    title: "About", 
   },
 ];
