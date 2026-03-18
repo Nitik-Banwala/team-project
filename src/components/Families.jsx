@@ -10,17 +10,31 @@ const Families = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="max-w-330 w-full mx-auto flex flex-col gap-10 items-center mt-20">
+    <div className="max-w-330 w-full mx-auto flex flex-col gap-10 items-center px-4 mt-20">
       <Heading text={"Hear What Families Say About Pupilo"} />
       <div className="max-w-312 w-full relative px-14 ">
         <Swiper
           onBeforeInit={(swiper) => {
             swiperRef.current = swiper;
           }}
-          slidesPerView={3}
-          spaceBetween={24}
+          slidesPerView={1}
+          spaceBetween={10}
           slidesPerGroup={1}
           loop={true}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 24,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
         >
           {FAMILIES_DATA_LIST.map((item, index) => (
             <SwiperSlide key={index}>
@@ -30,7 +44,7 @@ const Families = () => {
                 <div className="flex gap-3 items-center">
                   <img
                     src={item.image || null}
-                    alt="Kayla Steyn"
+                    alt={item.image}
                     className="h-10 w-10 rounded-full object-cover"
                   />
                   <h4 className="text-xl leading-[150%]">{item.name}</h4>
