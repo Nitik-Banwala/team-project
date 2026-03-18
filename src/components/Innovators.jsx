@@ -24,7 +24,7 @@ const Innovators = () => {
                     <Button
                         text={"Get Started"}
                         icon={<Icons icon={"btn_arrow"} pathClass={"group-hover:fill-white duration-200 ease-in fill-purple"} />}
-                        className={'group hover:text-white hover:bg-dark-purple text-purple mt-6 rounded-[400px] bg-white flex flex-row justify-center items-center gap-3.5 max-w-[189.1px] w-full h-[52.1px]'}
+                        className={'group hover:border hover:border-white hover:text-white hover:bg-dark-purple text-purple mt-6 rounded-[400px] bg-white flex flex-row justify-center items-center gap-3.5 max-w-[189.1px] w-full h-[52.1px]'}
                     />
                 </div>
                 <div className='absolute z-10 max-w-[445.1px] bottom-10 left-0 w-full max-h-[45.1px] h-full'>
