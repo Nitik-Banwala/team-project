@@ -87,6 +87,13 @@ const Icons = ({ icon, pathClass, className }) => {
         />
       </svg>
     ),
+    btn_arrow: (
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path className={pathClass} d="M10.021 3.414L1.414 12.021L0 10.607L8.606 2H1.021V0H12.021V11H10.021V3.414Z" fill="#010101" />
+      </svg>
+
+
+    ),
   };
 
   return iconList[icon] || null;
