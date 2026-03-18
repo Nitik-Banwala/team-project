@@ -1,4 +1,4 @@
-export const images = [
+export const IMAGES = [
     "/assets/images/png/scratch.png",
     "/assets/images/png/roblox.png",
     "/assets/images/png/python.png",
