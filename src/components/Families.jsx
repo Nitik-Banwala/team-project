@@ -10,7 +10,7 @@ const Families = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="max-w-330 w-full mx-auto flex flex-col gap-10 items-center px-4 mt-20">
+    <div className="max-w-330 w-full mx-auto flex flex-col gap-10 items-center px-4 my-10 md:my-20  lg:my-40">
       <Heading text={"Hear What Families Say About Pupilo"} />
       <div className="max-w-312 w-full relative px-14 ">
         <Swiper
@@ -58,13 +58,13 @@ const Families = () => {
         <>
           <button
             onClick={() => swiperRef.current?.slidePrev()}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 border border-black cursor-pointer h-12 w-12 rounded-full flex items-center justify-center duration-200 ease-in hover:text-white hover:border-transparent hover:bg-purple"
+            className="absolute -left-2 top-1/2 -translate-y-1/2 z-10 border border-black cursor-pointer h-12 w-12 rounded-full flex items-center justify-center duration-200 ease-in hover:text-white hover:border-transparent hover:bg-purple"
           >
             <MdOutlineArrowBackIos className="text-xl" />
           </button>
           <button
             onClick={() => swiperRef.current?.slideNext()}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 border border-black cursor-pointer h-12 w-12 rounded-full flex items-center justify-center duration-200 ease-in hover:text-white hover:border-transparent hover:bg-purple"
+            className="absolute -right-2 top-1/2 -translate-y-1/2 z-10 border border-black cursor-pointer h-12 w-12 rounded-full flex items-center justify-center duration-200 ease-in hover:text-white hover:border-transparent hover:bg-purple"
           >
             <MdOutlineArrowBackIos className="rotate-180 text-xl" />
           </button>

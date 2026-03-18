@@ -5,7 +5,7 @@ import HeroSlider from "./components/HeroSlider";
 import PupiloTopic from "./components/PupiloTopic";
 import Innovators from "./components/Innovators";
 import Families from "./components/Families";
-import Blogs from "./components/Blogs";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
       <Hero />
       <HeroSlider />
       <PupiloTopic />
-      <Innovators/>
+      <Innovators />
       <Families />
-       <Blogs/>
       <Footer />
     </>
   );
