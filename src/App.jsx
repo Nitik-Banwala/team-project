@@ -15,9 +15,8 @@ function App() {
       <HeroSlider />
       <PupiloTopic />
       <Innovators/>
-      {/* <Footer /> */}
       <Families />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
