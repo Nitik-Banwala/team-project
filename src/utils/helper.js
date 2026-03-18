@@ -80,7 +80,6 @@ export const PUPILO_CARD_DATA = [
       "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
   },
 ];
-<<<<<<< HEAD
 
 export const FAMILIES_DATA_LIST = [
   {
@@ -120,7 +119,6 @@ export const FAMILIES_DATA_LIST = [
     image: "",
   },
 ];
-=======
 export const SOCIAL_ICONS = [
 
   {
@@ -165,4 +163,3 @@ export const CONTACT_ICONS = [
 
  
 ];
->>>>>>> 0d2fe77a52236c9b079581eb29628bf39bf476b5
