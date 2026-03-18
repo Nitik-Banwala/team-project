@@ -17,9 +17,8 @@ function App() {
       <PupiloTopic />
       <Innovators/>
       <Families />
-      <Footer />
        <Blogs/>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
