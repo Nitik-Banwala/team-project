@@ -9,12 +9,13 @@ import Blogs from "./components/Blogs";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <HeroSlider />
       <PupiloTopic />
        <Blogs/>
-      {/* <Footer /> */}
+      <Footer />
+      
     </>
   );
 }
