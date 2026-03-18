@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
 
                 {/* RIGHT SECTION LINKS */}
-                <div className="flex gap-16">
+                <div className="flex gap-16 cursor-pointer">
 
                     {FOOTER_LINKS.map((section, index) => (
                         <div key={index}>
@@ -57,7 +57,7 @@ const Footer = () => {
                     <div>
                         <h3 className="font-semibold mb-4">Contact Us</h3>
 
-                        <ul className="space-y-3 text-gray-600">
+                        <ul className="space-y-3 text-gray-600 cursor-pointer">
                             {CONTACT_INFO.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}
