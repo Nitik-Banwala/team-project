@@ -6,6 +6,7 @@ import HeroSlider from "./components/HeroSlider";
 import PupiloTopic from "./components/PupiloTopic";
 import Innovators from "./components/Innovators";
 import Families from "./components/Families";
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Innovators/>
       <Families />
       <Footer />
+       <Blogs/>
+      {/* <Footer /> */}
     </>
   );
 }
