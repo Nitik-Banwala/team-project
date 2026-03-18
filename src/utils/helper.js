@@ -1,3 +1,10 @@
+export const images = [
+    "/assets/images/png/scratch.png",
+    "/assets/images/png/roblox.png",
+    "/assets/images/png/python.png",
+    "/assets/images/png/minecraft.png",
+    "/assets/images/png/tailwind.png",
+  ];
 import {
   BLOG,
   HOME,
