@@ -15,7 +15,7 @@ const Navbar = () => {
               <a href="">{nav.title}</a>
             </li>
           ))}
-          <div className="group">
+          <div className="group w-fit md:ml-28.25">
             <Button
               text={"Log In"}
               icon={
@@ -25,7 +25,7 @@ const Navbar = () => {
                 />
               }
               className={
-                "bg-black text-white border-transparent border group-hover:text-black group-hover:border-black group-hover:bg-white whitespace-nowrap py-3.25 pl-8 pr-8 my-6 rounded-full md:ml-28.25"
+                "bg-black text-white border-transparent border group-hover:text-black group-hover:border-black group-hover:bg-white whitespace-nowrap py-3.25 pl-8 pr-8 my-6 rounded-full"
               }
             />
           </div>
