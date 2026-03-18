@@ -4,6 +4,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 .inter{
     font-family: "Inter", sans-serif;
@@ -15,13 +16,12 @@
   --color-yellow: #f9dc00;
   --color-black: #010101;
   --color-white-grey: #f8f8f8;
-  --color-dark-purple:#8E63F7;
+  --color-dark-purple: #8e63f7;
 
   /*Font Sizes */
   --text-custom-6xl: 64px;
   --text-custom-2xl: 28px;
 }
-
 
 li {
   position: relative;
@@ -45,6 +45,11 @@ li::before {
 
 li:hover::before {
   width: 100%;
+}
+
+::selection {
+  color: white;
+  background-color: var(--color-purple);
 }
 
 @keyframes scroll {

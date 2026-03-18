@@ -2,13 +2,14 @@ import { CARD_DATA } from "../utils/helper";
 import Button from "./common/Button";
 import Icons from "./common/Icons";
 
-const BlogSection = () => {
+const Blogs = () => {
   const featuredCard = CARD_DATA[0]?.blog;
   const sideCards = [
     CARD_DATA[1]?.blog,
     CARD_DATA[2]?.blog,
     CARD_DATA[3]?.blog,
   ].filter(Boolean);
+
 
   return (
     <section className="w-full min-h-screen bg-[url('/assets/images/webp/s-tow.webp')] bg-cover bg-center py-20 px-4 relative overflow-hidden">
@@ -102,4 +103,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default Blogs;
