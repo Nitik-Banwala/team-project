@@ -7,8 +7,7 @@ const Hero = () => {
         <img
           src="/assets/images/webp/hero.webp"
           alt="hero"
-          className="w-full h-auto object-contain sm:min-h-[400px] lg:min-h-[513px]"
-        />
+          className="w-full h-auto object-contain sm:min-h-[400px] lg:min-h-[513px]"/>
       </div>
     </div>
   );

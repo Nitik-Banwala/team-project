@@ -12,15 +12,19 @@
   --color-yellow: #f9dc00;
   --color-black: #010101;
   --color-white-grey: #f8f8f8;
+  --color-dark-purple:#8E63F7;
 
   /*Font Sizes */
   --text-custom-6xl: 64px;
   --text-custom-2xl: 28px;
 }
 
+
 li {
   position: relative;
+  width: fit-content;
 }
+
 li:hover {
   color: var(--color-purple);
 }
@@ -35,15 +39,18 @@ li::before {
   background: var(--color-purple);
   transition: width 0.3s ease;
 }
+
 li:hover::before {
   width: 100%;
 }
+
 @keyframes scroll {
   0% {
     transform: translateX(0%);
   }
+
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
