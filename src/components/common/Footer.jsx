@@ -5,11 +5,11 @@ const Footer = () => {
     return (
         <footer className="w-full bg-[#F8F8F8]">
             <div className="max-w-285 mx-auto flex flex-col lg:flex-row gap-10 lg:gap-24 pt-12 lg:pt-20 px-4">
-                <div className="max-w-[300px]">
+                <div className="max-w-75">
                     <img
                         src="/assets/images/png/logo.png"
                         alt="Radial Code Logo"
-                        className="w-[140px] h-auto mb-4"
+                        className=" w-35 h-auto mb-4"
                     />
                     <p className=" font-normal text-[14px] leading-[150%] tracking-normal text-gray-600 mb-6">
                         Pupilo is Africa’s most loved online coding platform for kids and
@@ -19,7 +19,7 @@ const Footer = () => {
                         Subscribe to our Newsletter
                     </h3>
 
-                    <div className="flex items-center bg-gray-100 rounded-full p-full w-full max-w-[260px]">
+                    <div className="flex items-center bg-gray-100 rounded-full p-full w-full max-w-65">
                         <input
                             type="email"
                             placeholder="Email Address"
