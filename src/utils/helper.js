@@ -57,13 +57,6 @@ export const FOOTER_LINKS = [
     ],
   },
 ];
-
-export const CONTACT_INFO = [
-  "hello@pupiloInc.com",
-  "+234 123 456 7890",
-  "+234 098 765 4321",
-];
-
 export const PUPILO_CARD_DATA = [
   {
     img: "/assets/images/png/pupiloOne.png",
@@ -87,6 +80,7 @@ export const PUPILO_CARD_DATA = [
       "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
   },
 ];
+<<<<<<< HEAD
 
 export const FAMILIES_DATA_LIST = [
   {
@@ -126,3 +120,49 @@ export const FAMILIES_DATA_LIST = [
     image: "",
   },
 ];
+=======
+export const SOCIAL_ICONS = [
+
+  {
+    icon: "facebook",
+    link: "#",
+  },
+  {
+    icon: "instagram",
+    link: "#",
+  },
+  {
+    icon: "tiktok",
+    link: "#",
+  },
+  {
+    icon: "youtube",
+    link: "#",
+  },
+  {
+    icon: "linkedin",
+    link: "#",
+  },
+];
+export const CONTACT_ICONS = [
+
+  {
+    icon: "mail",
+    text: "hello@pupiloinc.com",
+    
+   
+  },
+  {
+    icon: "phone",
+    text: "+234 123 456 7890",
+
+  },
+  {
+    icon: "whatsapp",
+    text: "+234 098 765 4321",
+    
+  },
+
+ 
+];
+>>>>>>> 0d2fe77a52236c9b079581eb29628bf39bf476b5
