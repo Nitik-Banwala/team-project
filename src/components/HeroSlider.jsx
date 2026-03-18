@@ -1,5 +1,26 @@
+import React from "react";
+
 const HeroSlider = () => {
-  return <div>HeroSlider</div>;
+  return (
+    <div className="w-full m-auto bg-white-grey mt-30 overflow-hidden">
+      <div className="max-w-360 m-auto w-full pt-20 pb-18">
+        <div className="flex items-center gap-32.5 animate-scroll">
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+
+          {/* duplicate */}
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+          <img src="/assets/images/png/Scratch.png" alt="" />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default HeroSlider;
