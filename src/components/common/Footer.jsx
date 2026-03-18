@@ -25,7 +25,7 @@ const Footer = () => {
                             placeholder="Email Address"
                             className="flex-1 bg-transparent px-3 text-sm outline-none"
                         />
-                       <Button
+                        <Button
                             text={"Subscribe"}
                             className="bg-yellow-400 px-8 py-3 rounded-full text-sm font-medium hover:bg-yellow-500 transition"
                         />
@@ -35,14 +35,15 @@ const Footer = () => {
 
                     {FOOTER_LINKS.map((section, index) => (
                         <div key={index}>
-                            <h3 className="font-semibold mb-4">{section.title}</h3>
+                            <h3 className="font-semibold text-[13px] sm:text-[16px] mb-4">
+                                {section.title}
+                            </h3>
 
                             <ul className="space-y-3 text-gray-600">
                                 {section.links.map((link, i) => (
                                     <li
                                         key={i}
-                                        className="cursor-pointer hover:text-black transition"
-                                    >
+                                        className="cursor-pointer hover:text-black transition text-[14px] sm:text-[16px]">
                                         {link}
                                     </li>
                                 ))}
