@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full m-auto px-4">
+    <div className="w-full m-auto mt-1 md:mt-5  lg:mt-10.5 px-4">
       <div className="max-w-360 m-auto w-full">
         <img
           src="/assets/images/webp/hero.webp"
