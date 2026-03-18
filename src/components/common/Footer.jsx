@@ -5,8 +5,6 @@ const Footer = () => {
     return (
         <footer className="w-full  h-[472px] mx-auto bg-[#F8F8F8]">
             <div className="max-w-285 mx-auto flex gap-24 pt-20">
-
-                {/* LEFT SECTION */}
                 <div>
                     <img
                        src="/assets/images/png/logo.png" 
@@ -34,8 +32,6 @@ const Footer = () => {
 
                     </div>
                 </div>
-
-                {/* RIGHT SECTION LINKS */}
                 <div className="flex gap-16 cursor-pointer">
 
                     {FOOTER_LINKS.map((section, index) => (
