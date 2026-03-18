@@ -60,3 +60,4 @@ const Icons = ({ icon, pathClass, className }) => {
   return iconList[icon] || null;
 };
 export default Icons;
+
