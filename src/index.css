@@ -20,6 +20,7 @@
 
 li {
   position: relative;
+  width: fit-content;
 }
 li:hover {
   color: var(--color-purple);
@@ -38,6 +39,7 @@ li::before {
 li:hover::before {
   width: 100%;
 }
+
 @keyframes scroll {
   0% {
     transform: translateX(0%);
