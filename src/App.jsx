@@ -8,11 +8,11 @@ import PupiloTopic from "./components/PupiloTopic";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <HeroSlider />
-      <PupiloTopic />
-      <Footer />
+      {/* <PupiloTopic />
+      <Footer /> */}
     </>
   );
 }
