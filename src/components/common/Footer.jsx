@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Footer = () => {
     return (
-        <footer className="w-full  h-[472px] mx-auto bg-white">
+        <footer className="w-full  h-[472px] mx-auto bg-[#F8F8F8]">
             <div className="max-w-285 mx-auto flex gap-24 pt-20">
 
                 {/* LEFT SECTION */}
