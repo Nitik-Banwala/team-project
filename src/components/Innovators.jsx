@@ -6,7 +6,7 @@ const Innovators = () => {
     return (
         <div>
 
-            <div className='max-w-285 mx-auto rounded-3xl bg-purple py-[52.1px] h-auto '>
+            <div className='max-w-285 mx-auto rounded-3xl my-[160.1px] bg-purple py-[52.1px] h-auto '>
                 <div className=' absolute max-w-[445.1px] w-full max-h-[45.1px] h-full '>
                     <Icons icon={"next_tech"} />
                 </div>

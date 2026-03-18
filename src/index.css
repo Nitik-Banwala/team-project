@@ -17,13 +17,12 @@
   --text-custom-6xl: 64px;
   --text-custom-2xl: 28px;
 }
-<<<<<<< HEAD
-                                        
-=======
+
 
 li {
   position: relative;
 }
+
 li:hover {
   color: var(--color-purple);
 }
@@ -38,13 +37,16 @@ li::before {
   background: var(--color-purple);
   transition: width 0.3s ease;
 }
+
 li:hover::before {
   width: 100%;
 }
+
 @keyframes scroll {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -53,4 +55,3 @@ li:hover::before {
 .animate-scroll {
   animation: scroll 20s linear infinite;
 }
->>>>>>> 86818580ea64f238e5f204f9422febefc7fcebb6

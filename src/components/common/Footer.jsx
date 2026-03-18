@@ -1,14 +1,15 @@
 import { FOOTER_LINKS, CONTACT_INFO } from "../../utils/helper";
+import Button from "./Button";
 
 const Footer = () => {
     return (
-        <footer className="w-full max-w-[1440px] h-[472px] mx-auto bg-white">
-            <div className="max-w-[1200px] mx-auto flex gap-24 pt-20">
+        <footer className="w-full  h-[472px] mx-auto bg-[#F8F8F8]">
+            <div className="max-w-285 mx-auto flex gap-24 pt-20">
 
                 {/* LEFT SECTION */}
                 <div>
                     <img
-                        src="/src/assets/logo.png"
+                       src="/assets/images/png/logo.png" 
                         alt="Radial Code Logo"
                         className="w-[140px] h-auto mb-4"
                     />
@@ -29,14 +30,13 @@ const Footer = () => {
                             className="flex-1 bg-transparent px-3 text-sm outline-none"
                         />
 
-                        <button className="bg-yellow-400 px-4 py-2 rounded-full text-sm font-medium hover:bg-yellow-500 transition">
-                            Subscribe
-                        </button>
+                        <Button text={"Subscribe"} className={"bg-yellow-400 px-4 py-2 rounded-full text-sm font-medium hover:bg-yellow-500 transition"} />
+
                     </div>
                 </div>
 
                 {/* RIGHT SECTION LINKS */}
-                <div className="flex gap-16">
+                <div className="flex gap-16 cursor-pointer">
 
                     {FOOTER_LINKS.map((section, index) => (
                         <div key={index}>
@@ -57,7 +57,7 @@ const Footer = () => {
                     <div>
                         <h3 className="font-semibold mb-4">Contact Us</h3>
 
-                        <ul className="space-y-3 text-gray-600">
+                        <ul className="space-y-3 text-gray-600 cursor-pointer">
                             {CONTACT_INFO.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                
+
 
             </div>
         </footer>
