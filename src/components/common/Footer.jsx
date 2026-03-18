@@ -38,10 +38,12 @@ const Footer = () => {
                 <div className="flex flex-col sm:flex-row flex-wrap gap-10 sm:gap-16">
                     {FOOTER_LINKS.map((section, index) => (
                         <div key={index}>
-                            <h3 className="font-semibold mb-4">{section.title}</h3>
+                            <h3 className="font-semibold text-[13px] sm:text-[16px] mb-4">
+                                {section.title}
+                            </h3>
                             <ul className="space-y-3 text-gray-600">
                                 {section.links.map((link, i) => (
-                                    <li key={i} className="cursor-pointer hover:text-black transition">
+                                    <li key={i} className="cursor-pointer hover:text-black transition text-[14px] sm:text-[16px]">
                                         {link}
                                     </li>
                                 ))}
