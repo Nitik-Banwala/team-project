@@ -3,11 +3,12 @@ import Footer from "./components/common/Footer";
 import Hero from "./components/Hero";
 import HeroSlider from "./components/HeroSlider";
 import PupiloTopic from "./components/PupiloTopic";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Hero />
       <HeroSlider />
       <PupiloTopic />
