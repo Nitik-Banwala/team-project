@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import HeroSlider from "./components/HeroSlider";
 import PupiloTopic from "./components/PupiloTopic";
 import Innovators from "./components/Innovators";
+import Families from "./components/Families";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <HeroSlider />
       <PupiloTopic />
       <Innovators/>
-      <Footer />
+      {/* <Footer /> */}
+      <Families />
+      {/* <Footer /> */}
     </>
   );
 }

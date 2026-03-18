@@ -87,3 +87,42 @@ export const PUPILO_CARD_DATA = [
       "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
   },
 ];
+
+export const FAMILIES_DATA_LIST = [
+  {
+    name: "Kayla Steyn",
+    description:
+      "My son shifted from watching cartoons to building interactive stories! Pupilo’s ScratchJr classes sparked his creativity.",
+    image: "",
+  },
+  {
+    name: "Naledi Moeketsi",
+    description:
+      "I never thought my son would enjoy math, but through Pupilo’s game design classes, he’s learning coding and math at the same time.",
+    image: "",
+  },
+  {
+    name: "Johan Botha",
+    description:
+      "The live coding sessions are fantastic! My daughter used to shy away from technology — now she’s proudly building animations in Scratch.",
+    image: "",
+  },
+  {
+    name: "Kayla Steyn",
+    description:
+      "My son shifted from watching cartoons to building interactive stories! Pupilo’s ScratchJr classes sparked his creativity.",
+    image: "",
+  },
+  {
+    name: "Naledi Moeketsi",
+    description:
+      "I never thought my son would enjoy math, but through Pupilo’s game design classes, he’s learning coding and math at the same time.",
+    image: "",
+  },
+  {
+    name: "Johan Botha",
+    description:
+      "The live coding sessions are fantastic! My daughter used to shy away from technology — now she’s proudly building animations in Scratch.",
+    image: "",
+  },
+];
