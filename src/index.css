@@ -38,7 +38,6 @@ li::before {
 li:hover::before {
   width: 100%;
 }
-
 @keyframes scroll {
   0% {
     transform: translateX(0%);
