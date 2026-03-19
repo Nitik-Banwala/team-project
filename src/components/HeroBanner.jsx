@@ -13,7 +13,7 @@ const HeroBanner = () => {
       autoplay={{ delay: 4000, disableOnInteraction: false }}
       pagination={{ clickable: true }}
       loop={true}
-      className="w-full h-[500px]"
+      className="w-full h-[500.1px]"
     >
       {FAMILIES_DATA_LIST.map((slide, index) => (
         <SwiperSlide key={index}>
@@ -26,7 +26,7 @@ const HeroBanner = () => {
             }}
           >
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-r from-black/80 to-transparent" />
 
             {/* Text Content */}
             <div className="absolute bottom-16 left-10 text-white">
