@@ -18,7 +18,7 @@ const Innovators = ({ text, description }) => {
               className={"gap-6"}
               text={text}
               description={description}
-              pClass={"leading-[150%]"}
+              pClass={"leading-150"}
             />
           </div>
           <Button
