@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col sm:flex-row flex-wrap gap-10 sm:gap-16">
 
-                    <div className="lg:flex-row flex sm:flex-col ">
+                    <div className="lg:flex-row flex sm:flex-col gap-10 sm:gap-16">
                         {FOOTER_LINKS.map((section, index) => (
                             <div key={index}>
                                 <h3 className="font-semibold text-[13px] sm:text-[16px] mb-4">
