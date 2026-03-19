@@ -20,14 +20,14 @@ function PupiloTopic() {
                 <span className='text-normal leading-[150%] tracking-normal text-purple'>{card.pupilo.date}</span>
                 <div className='flex flex-col gap-3'>
                   <h4 className='text-2xl font-semibold leading-[120%] tracking-normal text-black'>{card.pupilo.title}</h4>
-                  <p className='font-normal leading-[150%] tracking-normal text-black'>{card.pupilo.paragraph}</p>
+                  <p className='font-normal leading-[150%] tracking-normal text-black/80'>{card.pupilo.paragraph}</p>
                 </div>
                 <button className='flex flex-row items-center gap-2.5 underline font-semibold leading-[100%] tracking-normal hover:no-underline cursor-pointer w-fit'>Learn More<span><Icons icon="arrow" /></span></button>
               </div>
             </div>
           })}
         </div>
-        <Button className="mt-10 flex items-center py-3.5 px-8 bg-yellow max-w-40 rounded-[400px] hover:text-yellow hover:bg-black group"
+        <Button className="mt-10 flex items-center py-3.5 px-8.75 gap-3.5  bg-yellow   rounded-[400px] hover:text-yellow hover:bg-black group"
           text="View All"
           icon={
             <Icons

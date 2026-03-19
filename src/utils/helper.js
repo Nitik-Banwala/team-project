@@ -7,10 +7,18 @@ export const IMAGES = [
   ];
 import {
   BLOG,
+  FACEBOOK,
   HOME,
+  INSTA,
   LEARN_WITH_PUPILO,
+  LINKEDIN,
+  MAIL,
+  PHONE,
   PROGRAMS,
+  TIKTOK,
+  WHATSAPP,
   WHY_PUPILO,
+  YOUTUBE,
 } from "./constant";
 
 export const images = [
@@ -70,14 +78,14 @@ export const FOOTER_LINKS = [
 export const CARD_DATA = [
   {
     pupilo: {
-      img: "/assets/images/png/pupiloOne.png",
+      img: "/assets/images/webp/pupiloOne.webp",
       date: "By John doe on 2 June 2025",
       title: "The Code Learning Blog: For Kids, Teens, and Adults",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogOne.png",
+      img: "/assets/images/png/Bloge1.png",
       date: "By John doe on 2 June 2025",
       title: "Explore the World of Coding: Tips and Insights for All Ages",
       paragraph:
@@ -86,14 +94,14 @@ export const CARD_DATA = [
   },
   {
     pupilo: {
-      img: "/assets/images/png/pupiloTwo.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
       date: "By John doe on 2 June 2025",
       title: "Learning to Code at Any Age",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogTwo.png",
+      img: "/assets/images/png/bloge2.png",
       date: "By John doe on 2 June 2025",
       title: "From First Line to Full Stack: Journeys from Our Students",
       paragraph:
@@ -102,14 +110,14 @@ export const CARD_DATA = [
   },
   {
     pupilo: {
-      img: "/assets/images/png/pupiloThree.png",
+      img: "/assets/images/webp/pupiloThree.webp",
       date: "By John doe on 2 June 2025",
       title: "The Power of Learning at Every Stage",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogThree.png",
+      img: "/assets/images/png/bloge3.png",
       date: "By John doe on 2 June 2025",
       title: "Your Coding Companion: Learn, Practice, and Grow with Us",
       paragraph:
@@ -118,7 +126,7 @@ export const CARD_DATA = [
   },
   {
     blog: {
-      img: "/assets/images/png/blogFour.png",
+      img: "public/assets/images/png/bloge4.png",
       date: "By John doe on 2 June 2025",
       title: "Behind the Code: Stories and Resources for Every Student",
       paragraph:
@@ -168,37 +176,44 @@ export const FAMILIES_DATA_LIST = [
 export const SOCIAL_ICONS = [
   {
     icon: "facebook",
-    link: "#",
+    link: FACEBOOK,
   },
   {
     icon: "instagram",
-    link: "#",
+    link: INSTA,
   },
   {
     icon: "tiktok",
-    link: "#",
+    link: TIKTOK,
   },
   {
     icon: "youtube",
-    link: "#",
+    link: YOUTUBE,
   },
   {
     icon: "linkedin",
-    link: "#",
+    link: LINKEDIN,
   },
 ];
 export const CONTACT_ICONS = [
   {
     icon: "mail",
+    link: MAIL,
     text: "hello@pupiloinc.com",
   },
   {
     icon: "phone",
+    link: PHONE,
     text: "+234 123 456 7890",
   },
   {
     icon: "whatsapp",
+    link: WHATSAPP,
     text: "+234 098 765 4321",
   },
 ];
+
+
+
+
 
