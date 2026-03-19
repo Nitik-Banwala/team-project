@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { CARD_DATA } from "../utils/helper";
 import Button from "./common/Button";
 import Icons from "./common/Icons";
@@ -12,11 +12,11 @@ const Blogs = () => {
     CARD_DATA[3]?.blog,
   ].filter(Boolean);
 
-  return (    
+  return (
     <section className="w-full mt-30 min-h-screen bg-[url('/assets/images/webp/s-tow.webp')] bg-cover bg-center py-20 px-4 relative overflow-hidden">
       <div className="max-w-285 mx-auto relative z-10">
         {/* Section Title */}
-        <h2 className="text-white text-4xl sm:text-5xl font-bold text-center mb-10 leading-[120%]">
+        <h2 className="text-white text-4xl sm:text-5xl font-bold text-center mb-10 leading-120">
           Our Latest Blogs
         </h2>
 
@@ -38,13 +38,13 @@ const Blogs = () => {
                 />
               </div>
               <div className=" flex flex-col flex-1">
-                <p className="text-purple leading-[150%] opacity-80 text-base mt-5 mb-3.5 font-medium ">
+                <p className="text-purple leading-150 opacity-80 text-base mt-5 mb-3.5 font-medium ">
                   {featuredCard.date}
                 </p>
-                <h3 className=" text-xl sm:text-custom-2xl font-semibold leading-[120%] mb-4">
+                <h3 className=" text-xl sm:text-custom-2xl font-semibold leading-120 mb-4">
                   {featuredCard.title2}
                 </h3>
-                <p className="text-gray-500 text-base font-normal inter leading-[160%] flex-1">
+                <p className="text-gray-500 text-base font-normal inter leading-160 flex-1">
                   {featuredCard.paragraph2}
                 </p>
                 <Button
@@ -76,13 +76,13 @@ const Blogs = () => {
 
                 {/* Content */}
                 <div className="pl-4 flex flex-col  flex-1">
-                  <p className="text-[#8C52FF] text-sm font-normal leading-[150%]">
+                  <p className="text-[#8C52FF] text-sm font-normal leading-150">
                     {card.date}
                   </p>
-                  <h3 className="text-black sm:text-xl text-sm font-medium leading-[120%] mt-4.25 mb-4">
+                  <h3 className="text-black sm:text-xl text-sm font-medium leading-120 mt-4.25 mb-4">
                     {card.title}
                   </h3>
-                  <p className="text-gray-500 sm:text-sm leading-[150%]">
+                  <p className="text-gray-500 sm:text-sm leading-150">
                     {card.paragraph}
                   </p>
                   <button className="mt-4 self-start underline  text-sm font-semibold text-black hover:text-[#8C52FF] transition flex items-center gap-1">

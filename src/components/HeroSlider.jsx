@@ -1,12 +1,9 @@
-import React from "react";
 import { IMAGES } from "../utils/helper";
 
-
 const HeroSlider = () => {
-  
   const imageElements = [];
   // using for loop
-  for (let i = 0; i < 2; i++) { 
+  for (let i = 0; i < 2; i++) {
     for (let j = 0; j < IMAGES.length; j++) {
       imageElements.push(
         <img
@@ -14,7 +11,7 @@ const HeroSlider = () => {
           src={IMAGES[j]}
           alt=""
           className="w-24 sm:w-32 lg:w-37.5 h-auto"
-        />
+        />,
       );
     }
   }

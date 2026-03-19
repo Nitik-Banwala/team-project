@@ -91,7 +91,7 @@ export const CARD_DATA = [
         {
           id: "coding-for-everyone",
           heading: "Coding Is for Everyone",
-          img: "/assets/images/png/pupiloOne.png",
+          img: "/assets/images/webp/pupiloOne.webp",
           paragraph:
             "One of the biggest misconceptions? 'I'm too old' or 'I'm too young' to start coding. Let's kill that noise.",
           points: [
@@ -168,14 +168,14 @@ export const CARD_DATA = [
   },
   {
     pupilo: {
-      img: "/assets/images/png/pupiloTwo.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
       date: "By Jane Smith on 10 July 2025",
       title: "Learning to Code at Any Age",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogTwo.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
       date: "By Jane Smith on 10 July 2025",
       title: "From First Line to Full Stack: Journeys from Our Students",
       paragraph:
@@ -274,7 +274,7 @@ export const CARD_DATA = [
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogThree.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
       date: "By Alex Johnson on 18 August 2025",
       title: "Your Coding Companion: Learn, Practice, and Grow with Us",
       paragraph:
@@ -366,7 +366,7 @@ export const CARD_DATA = [
   },
   {
     blog: {
-      img: "/assets/images/png/blogFour.png",
+      img: "/assets/images/webp/pupiloThree.webp",
       date: "By Maria Chen on 5 September 2025",
       title: "Behind the Code: Stories and Resources for Every Student",
       paragraph:

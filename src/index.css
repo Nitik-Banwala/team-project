@@ -22,6 +22,12 @@
   --text-custom-6xl: 64px;
   --text-custom-2xl: 28px;
   --text-custom-3xl: 32px;
+
+  /* line height */
+  --leading-100: 100%;
+  --leading-120: 120%;
+  --leading-150: 150%;
+  --leading-160: 160%;
 }
 
 li {
