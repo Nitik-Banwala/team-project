@@ -5,8 +5,8 @@ import Button from './common/Button'
 
 function PupiloTopic() {
   return (
-    <div className='py-40'>
-      <div className='max-w-285 mx-auto px-3'>
+    <div className='pt-40'>
+      <div className='max-w-285 mx-auto px-4'>
         <div className='flex flex-col items-center'> 
         <div className='flex flex-col gap-3 text-center max-w-125.25 mx-auto pb-10'>
           <h3 className='text-5xl font-semibold leading-[120%] tracking-normal text-black max-sm:text-3xl'>General Pupilo Topic</h3>
