@@ -12,7 +12,7 @@ const Blogs = () => {
 
 
   return (
-    <section className="w-full mt-30 min-h-screen bg-[url('/assets/images/webp/s-tow.webp')] bg-cover bg-center py-20 px-4 relative overflow-hidden">
+    <section className="w-full mt-30 bg-[url('/assets/images/webp/s-tow.webp')] bg-cover bg-center py-20 px-4 relative overflow-hidden">
       <div className="max-w-285 mx-auto relative z-10"> 
         {/* Section Title */}
         <h2 className="text-white text-4xl sm:text-5xl font-bold text-center mb-10 leading-[120%]">
