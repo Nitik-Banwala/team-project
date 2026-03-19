@@ -70,7 +70,7 @@ export const FOOTER_LINKS = [
 export const CARD_DATA = [
   {
     pupilo: {
-      img: "/assets/images/webp/pupiloOne.webp",
+      img: "/assets/images/png/Bloge1.png",
       date: "By John doe on 2 June 2025",
       title: "The Code Learning Blog: For Kids, Teens, and Adults",
       paragraph:
@@ -80,7 +80,7 @@ export const CARD_DATA = [
         "Discover coding tips, inspiring stories, and expert insights crafted for learners of all ages. Whether you're a curious student, a working professional, or someone exploring a new passion, our blog is here to guide you. From beginner basics to real-world projects, explore how anyone—from age 10 to 50—can start coding and grow.",
     },
     blog: {
-      img: "https://picsum.photos/400/300",
+      img: "/assets/images/webp/pupiloOne.webp",
       date: "By John doe on 2 June 2025",
       title: "Explore the World of Coding: Tips and Insights for All Ages",
       paragraph:
@@ -91,7 +91,7 @@ export const CARD_DATA = [
         {
           id: "coding-for-everyone",
           heading: "Coding Is for Everyone",
-          img: "/assets/images/png/pupiloOne.png",
+          img: "/assets/images/webp/pupiloTwo.webp",
           paragraph:
             "One of the biggest misconceptions? 'I'm too old' or 'I'm too young' to start coding. Let's kill that noise.",
           points: [
@@ -116,7 +116,7 @@ export const CARD_DATA = [
         {
           id: "tools-and-platforms",
           heading: "Tools & Platforms to Begin Your Journey",
-          img: "/assets/images/png/pupiloTwo.png",
+          img: "//assets/images/png/Bloge1.png",
           paragraph:
             "The right tools make all the difference. Here's a breakdown of the most user-friendly and effective platforms to get started:",
           points: [
@@ -137,7 +137,7 @@ export const CARD_DATA = [
         {
           id: "why-coding-matters",
           heading: "Why Learning to Code Matters",
-          img: "/assets/images/png/pupiloThree.png",
+          img: "/assets/images/webp/pupiloOne.webp",
           paragraph:
             "Coding isn't just about writing lines of syntax. It's about solving real problems. Here's how it's transforming everyday lives:",
           points: [
@@ -168,14 +168,15 @@ export const CARD_DATA = [
   },
   {
     pupilo: {
-      img: "/assets/images/png/pupiloTwo.png",
+      img: "/assets/images/png/bloge2.png",
       date: "By Jane Smith on 10 July 2025",
       title: "Learning to Code at Any Age",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogTwo.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
+      img2: "/assets/images/png/bloge2.png",
       date: "By Jane Smith on 10 July 2025",
       title: "From First Line to Full Stack: Journeys from Our Students",
       paragraph:
@@ -186,7 +187,7 @@ export const CARD_DATA = [
         {
           id: "student-stories",
           heading: "Real Stories from Real Students",
-          img: "/assets/images/png/pupiloOne.png",
+          img: "/assets/images/webp/pupiloOne.webp",
           paragraph:
             "These are not just success stories — they are proof that with the right guidance and determination, anyone can learn to code.",
           points: [
@@ -211,7 +212,7 @@ export const CARD_DATA = [
         {
           id: "learning-path",
           heading: "The Learning Path That Works",
-          img: "/assets/images/png/pupiloTwo.png",
+          img: "/assets/images/webp/pupiloTwo.webp",
           paragraph:
             "All our successful students followed a structured path. Here's what that journey typically looks like:",
           points: [
@@ -236,7 +237,7 @@ export const CARD_DATA = [
         {
           id: "your-journey-starts",
           heading: "Your Journey Starts Today",
-          img: "/assets/images/png/pupiloThree.png",
+          img: "/assets/images/png/Bloge1.png",
           paragraph:
             "The only difference between you and our successful students is that they started. Here's what you can do right now:",
           points: [
@@ -267,14 +268,15 @@ export const CARD_DATA = [
   },
   {
     pupilo: {
-      img: "/assets/images/png/pupiloThree.png",
+      img: "/assets/images/png/bloge3.png",
       date: "By Alex Johnson on 18 August 2025",
       title: "The Power of Learning at Every Stage",
       paragraph:
         "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
     },
     blog: {
-      img: "/assets/images/png/blogThree.png",
+      img: "/assets/images/webp/pupiloThree.webp",
+      img2: "/assets/images/png/bloge3.png",
       date: "By Alex Johnson on 18 August 2025",
       title: "Your Coding Companion: Learn, Practice, and Grow with Us",
       paragraph:
@@ -284,8 +286,8 @@ export const CARD_DATA = [
       sections: [
         {
           id: "learn-the-right-way",
-          heading: "1. Learn the Right Way from Day One",
-          img: "/assets/images/png/pupiloOne.png",
+          heading: " Learn the Right Way from Day One",
+          img: "/assets/images/png/Bloge1.png",
           paragraph:
             "Most beginners make the mistake of jumping between tutorials without building anything. Here's how to learn effectively from the start:",
           points: [
@@ -309,8 +311,8 @@ export const CARD_DATA = [
         },
         {
           id: "practice-tools",
-          heading: "2. Practice Tools We Recommend",
-          img: "/assets/images/png/pupiloTwo.png",
+          heading: " Practice Tools We Recommend",
+          img: "/assets/images/webp/pupiloTwo.webp",
           paragraph:
             "Practice is everything in coding. Here are the best tools to sharpen your skills daily:",
           points: [
@@ -334,8 +336,8 @@ export const CARD_DATA = [
         },
         {
           id: "grow-your-skills",
-          heading: "3. Grow Your Skills Beyond the Basics",
-          img: "/assets/images/png/pupiloThree.png",
+          heading: " Grow Your Skills Beyond the Basics",
+          img: "/assets/images/webp/pupiloOne.webp",
           paragraph:
             "Once you have the basics down, the real fun begins. Here's how to keep growing and stay ahead:",
           points: [
@@ -364,9 +366,18 @@ export const CARD_DATA = [
       ],
     },
   },
+
   {
+    pupilo: {
+      img: "/assets/images/png/bloge4.png",
+      date: "By Alex Johnson on 18 August 2025",
+      title: "The Power of Learning at Every Stage",
+      paragraph:
+        "Discover coding resources, tips, and stories designed for learners of every age. Whether you're a curious kid.",
+    },
     blog: {
-      img: "/assets/images/png/blogFour.png",
+      img: "/assets/images/webp/pupiloTwo.webp",
+      img2: "/assets/images/png/bloge4.png",
       date: "By Maria Chen on 5 September 2025",
       title: "Behind the Code: Stories and Resources for Every Student",
       paragraph:
@@ -377,7 +388,7 @@ export const CARD_DATA = [
         {
           id: "struggles-and-breakthroughs",
           heading: "The Real Struggles Behind Learning to Code",
-          img: "/assets/images/png/pupiloOne.png",
+          img: "/assets/images/png/bloge1.png",
           paragraph:
             "Nobody talks about the hard parts enough. Here are the most common struggles students face — and how to overcome them:",
           points: [
@@ -402,7 +413,7 @@ export const CARD_DATA = [
         {
           id: "best-free-resources",
           heading: "Best Free Resources for Every Level",
-          img: "/assets/images/png/pupiloTwo.png",
+          img: "/assets/images/webp/pupiloThree.webp",
           paragraph:
             "You don't need to spend a fortune to learn to code. Here are the best free resources available right now:",
           points: [
@@ -427,12 +438,12 @@ export const CARD_DATA = [
         {
           id: "your-story-matters",
           heading: "Your Story Matters Too",
-          img: "/assets/images/png/pupiloThree.png",
+          img: "/assets/images/webp/pupiloOne.webp",
           paragraph:
             "Every student who walks through our doors has a unique story. And every one of those stories deserves to be told. Here's why sharing your journey matters:",
           points: [
             {
-              text: "Sharing your progress publicly on LinkedIn or Twitter builds your personal brand and attracts opportunities.",
+              text: "Sharing your progress ly on LinkedIn or Twitter builds your personal brand and attracts opportunities.",
             },
             {
               text: "Writing about what you learn — even as a beginner — helps others and reinforces your own understanding.",
@@ -441,7 +452,7 @@ export const CARD_DATA = [
               text: "Your struggles and breakthroughs can inspire someone else who is exactly where you were 6 months ago.",
             },
             {
-              text: "Building in public creates accountability and keeps you consistent when motivation is low.",
+              text: "Building in  creates accountability and keeps you consistent when motivation is low.",
             },
           ],
           useCoding: [

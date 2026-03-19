@@ -23,7 +23,7 @@ function PupiloTopic({ text, description }) {
                 <Link key={i}>
                   <div className="shadow-[0px_0px_32px_0px_rgba(0,0,0,0.06)] p-4 rounded-3xl hover:scale-105 transition-all duration-300">
                     <div className="flex flex-col gap-4">
-                      <img src={card.pupilo.img} alt="image" />
+                      <img src={card.blog.img} alt="image" className="" />
                       <span className="text-normal leading-[150%] tracking-normal text-purple">
                         {card.pupilo.date}
                       </span>

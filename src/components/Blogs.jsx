@@ -68,7 +68,7 @@ const Blogs = () => {
                 {/* Image */}
                 <div className="overflow-hidden w-[130.1px] sm:w-[160.1px] shrink-0">
                   <img
-                    src={card.img}
+                    src={card.img2}
                     alt={card.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                   />

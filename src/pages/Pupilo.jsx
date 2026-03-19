@@ -39,7 +39,7 @@ const Pupilo = () => {
               <img
                 src={section.img}
                 alt={section.heading}
-                className="w-full rounded-xl"
+                className="w-full max-w-[730.1px] max-h-[442.1px] h-full rounded-xl"
               />
               <p className="text-gray-600 leading-[160%]">
                 {section.paragraph}
