@@ -1,10 +1,12 @@
-const Heading = ({ text, className, description }) => {
+const Heading = ({ text, className, description, pClass }) => {
   return (
-    <div className={` ${className} ${description && "flex flex-col"}`}>
+    <div
+      className={` ${className} ${description && "flex flex-col md:text-left text-center"}`}
+    >
       <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-semibold">
         {text}
       </h2>
-      <p>{description}</p>
+      <p className={`${pClass}`}>{description}</p>
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Navbar = () => {
             xl:gap-8 lg:gap-5 md:gap-3`}
         >
           {NAV_LIST.map((nav, i) => (
-            <li key={i} className="text-grey leading-[150%] whitespace-nowrap">
+            <li key={i} className="text-grey leading-150 whitespace-nowrap">
               <a href="">{nav.title}</a>
             </li>
           ))}

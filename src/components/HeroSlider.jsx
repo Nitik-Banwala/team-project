@@ -1,4 +1,3 @@
-import React from "react";
 import { IMAGES } from "../utils/helper";
 
 const HeroSlider = () => {
