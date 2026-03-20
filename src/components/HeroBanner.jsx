@@ -27,7 +27,7 @@ const HeroBanner = () => {
           >
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
-
+            
             {/* Text Content */}
             <div className="absolute bottom-16 left-10 text-white">
               <h1 className="text-4xl font-bold">{slide.title}</h1>
