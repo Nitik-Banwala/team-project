@@ -12,13 +12,13 @@ const Innovators = ({ text, description }) => {
         <div className="absolute hidden md:block z-10 right-0 top-0 max-w-[292.1px] w-full max-h-[45.1px] h-full">
           <Icons icon={"next_tech_second"} />
         </div>
-        <div className="flex py-[52.1px] px-4 sm:px-8 flex-col items-center text-center">
-          <div className="max-w-[535.1px] flex flex-col text-center items-center text-white">
+        <div className="flex py-[52.1px] px-4 sm:px-8 flex-col items-center justify-center text-center">
+          <div className="max-w-[535.1px] flex flex-col text-center items-center justify-center text-white">
             <Heading
-              className={"gap-6"}
+              className={"gap-6 text-center max-w-[535px] mx-auto flex items-center justify-center"}
               text={text}
               description={description}
-              pClass={"leading-150"}
+              pClass={"leading-150 text-center max-w-[451px]"}
             />
           </div>
           <Button

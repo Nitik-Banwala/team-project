@@ -13,9 +13,10 @@ function PupiloTopic({ text, description }) {
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-cente gap-3 text-center max-w-125.25 mx-auto pb-10">
             <Heading
-              pClass={"text-center"}
+              pClass={"text-center text-grey"}
               text={text}
               description={description}
+              
               className={"gap-3 items-center "}
             />
           </div>
@@ -25,18 +26,18 @@ function PupiloTopic({ text, description }) {
                 <div className="shadow-[0px_0px_32px_0px_rgba(0,0,0,0.06)] p-4 rounded-3xl hover:scale-105 transition-all duration-300">
                   <div className="flex flex-col gap-4">
                     <img src={card.blog.img} alt="image" className="" />
-                    <span className="text-normal leading-150 tracking-normal text-purple">
+                    <span className="font-normal text-base leading-150 tracking-normal text-purple">
                       {card.pupilo.date}
                     </span>
                     <div className="flex flex-col gap-3">
                       <h4 className="text-2xl font-semibold leading-120 tracking-normal text-black">
                         {card.pupilo.title}
                       </h4>
-                      <p className="font-normal leading-150 tracking-normal text-black">
+                      <p className="font-normal leading-150 tracking-normal text-black opacity-80">
                         {card.pupilo.paragraph}
                       </p>
                     </div>
-                    <button className="flex flex-row items-center gap-2.5 underline font-semibold leading-100 tracking-normal hover:no-underline cursor-pointer w-fit">
+                    <button className="flex flex-row items-center gap-2.5 underline font-semibold leading-150 tracking-normal hover:no-underline cursor-pointer w-fit">
                       Learn More
                       <span>
                         <Icons icon="arrow" />
@@ -48,7 +49,7 @@ function PupiloTopic({ text, description }) {
             })}
           </div>
           <Button
-            className="mt-10 flex items-center py-3.5 px-8 text-base gap-[13.98px] bg-yellow max-w-40 rounded-[400px] hover:text-yellow hover:bg-black group"
+            className="mt-10 flex items-center py-3.5 px-8.75 text-nowrap text-base gap-[13.98px] bg-yellow max-w-40 rounded-[400px] hover:text-yellow hover:bg-black group"
             text="View All"
             icon={
               <Icons

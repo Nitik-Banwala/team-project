@@ -15,7 +15,7 @@ const Blogs = () => {
   return (
     <section className="w-full lg:mt-30 md:mt-20 mt-10 bg-[url('/assets/images/webp/s-tow.webp')] bg-cover bg-center py-20 px-4 relative overflow-hidden">
       <div className="max-w-285 mx-auto relative z-10">
-        <h2 className="text-white text-4xl sm:text-5xl font-bold text-center mb-10 leading-120">
+        <h2 className="text-white text-4xl sm:text-5xl font-semibold text-center mb-10 leading-120">
           Our Latest Blogs
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -40,7 +40,7 @@ const Blogs = () => {
                 <h3 className=" text-xl sm:text-custom-2xl font-semibold leading-120 mb-4">
                   {featuredCard.title2}
                 </h3>
-                <p className="text-gray-500 text-base font-normal inter leading-160 flex-1">
+                <p className="text-gray-500 text-base font-normal inter leading-160 flex-1 max-w-[514px]">
                   {featuredCard.paragraph2}
                 </p>
                 <Button
@@ -76,7 +76,7 @@ const Blogs = () => {
                   <p className="text-gray-500 sm:text-sm leading-150">
                     {card.paragraph}
                   </p>
-                  <button className="mt-4 self-start underline  text-sm font-semibold text-black hover:text-[#8C52FF] transition flex items-center gap-1">
+                  <button className="mt-4 self-start underline  text-sm font-semibold text-black hover:text-[#8C52FF] transition flex items-center gap-2.5">
                     Learn More <Icons icon={"next_arrow"} />
                   </button>
                 </div>
